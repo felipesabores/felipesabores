@@ -1,8 +1,8 @@
 # ⚡ THE SOVEREIGN ORCHESTRATOR ⚡
 
-## Chief Technology Officer (CTO) | AI Solutions Architect | 10x Engineer
+## Senior Software Architect | Tech Lead | Full Stack Engineer | CTO
 
-> "Antigravidade não é um módulo; é uma filosofia de engenharia. Se uma plataforma SaaS te prende, construa a saída. Se um sistema legado não tem API, construa o robô que o controla."
+> "Foco extremo na entrega de valor, eficiência operacional e redução de custos. Liderando a modernização de sistemas corporativos, projetando infraestruturas de alta escalabilidade e acelerando o ciclo de desenvolvimento através de workflows de Inteligência Artificial."
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript)
@@ -11,70 +11,66 @@
 ![Docker](https://img.shields.io/badge/Docker-Sovereign-2496ED?style=for-the-badge&logo=docker)
 ![Supabase](https://img.shields.io/badge/Supabase-Self--Hosted-3ECF8E?style=for-the-badge&logo=supabase)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15.x-4169E1?style=for-the-badge&logo=postgresql)
-![n8n](https://img.shields.io/badge/n8n-Queue--Mode-FF6C37?style=for-the-badge&logo=n8n)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-UI-38B2AC?style=for-the-badge&logo=tailwind-css)
+![AWS](https://img.shields.io/badge/Amazon_AWS-Cloud-232F3E?style=for-the-badge&logo=amazon-aws)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions)
 
 ---
 
-### �️ ECOSSISTEMA DE SOBERANIA (SELF-HOSTED OPS & CLOUD)
+### 🛡️ ARQUITETURA DE INFRAESTRUTURA & CLOUD (DEVOPS E SRE)
 
-Eu não alugo infraestrutura; eu orquestro ativos proprietários. Minha arquitetura é desenhada para **Zero SaaS Lock-in**, escalabilidade horizontal e governança absoluta de dados operacionais.
+Especialista em construir soluções resilientes com foco em **Otimização de Custos (FinOps)** e **Independência Tecnológica (Zero Vendor Lock-in)**, utilizando os melhores padrões da indústria para implantação de serviços escaláveis e independentes.
 
-#### 1. Infraestrutura Core, Edge & Networking
+#### 1. Cloud & Core Infrastructure (SRE/DevOps)
 
-* **Orquestração de Containers:** Clusterização avançada com **Dokploy**, **Portainer** e **Docker Engine**. Gerenciamento rigoroso de volumes persistentes (PGData, Redis, Node) para proteção contra perda de estado em deployments contínuos.
-* **Segurança & Reverse Proxy:** Exposição de microsserviços via **Cloudflare Tunnels (cloudflared)** para bypass de CGNAT e proteção DDoS, com roteamento interno assinado por **Traefik** e terminação TLS automática.
-* **CI/CD & Automação de Infra:** Automação de deploys com **GitHub Actions** interligados a webhooks do Dokploy e scripts de orquestração via **AIOS Core** (AI Operating Systems) e **AutoVault Prime Hub**.
+* **Orquestração de Containers:** Clusterização avançada, gerenciamento de instâncias e automação de pipelines de entrega contínua (CI/CD) com **Docker**, **Dokploy** e **GitHub Actions**. Gerenciamento rigoroso de bancos de dados persistenciais.
+* **Segurança & Networking:** Roteamento e firewalls configurados via **Cloudflare Tunnels** (proteção DDoS e bypass de redes restritas) e proxies reversos com terminação TLS automática (**Traefik**).
 
-#### 2. Backend, Data & Real-Time Comms
+#### 2. Backend, Bancos de Dados & Automação de Processos
 
-* **Sustentação Supabase Self-Hosted:** Manutenção de mais de 12 contêineres vitais (Postgres, GoTrue, PostgREST, Kong, Storage, Realtime). Arquitetura de segurança validada por **RLS (Row Level Security)** e RPC Functions.
-* **Automação Industrial (Queue Mode):** Servidor **n8n** operando em arquitetura de fila com **Redis** e múltiplos **Workers** distribuídos, garantindo alta disponibilidade para processamento assíncrono de webhooks massivos.
-* **Mensageria & IA Conversacional:** Instâncias autônomas de **Evolution API** e **Typebot**, orquestrando fluxos de atendimento B2B/B2C sem dependência de plataformas de terceiros.
+* **Engenharia de Dados & Backend:** Sustentação de arquiteturas complexas envolvendo bancos de dados relacionais e em tempo real (**Supabase / PostgreSQL**), projetando políticas robustas de segurança a nível de linha (**RLS**).
+* **Processamento Assíncrono:** Arquiteturas orientadas a eventos e processamento em fila de alto volume utilizando **n8n** e **Redis**, projetadas para integrações de missão crítica e manipulação intensiva de webhooks de APIs externas.
 
 ---
 
-### 🚀 O PORTFÓLIO DE BLITZSCALING (Q1 2026)
+### 🚀 EXPERIÊNCIA E CASES DE SUCESSO RECENTES
 
-Uma demonstração de **Time-to-Market** agressivo, onde ecossistemas inteiros foram concebidos, desenvolvidos e postos em produção em menos de 90 dias através de Vibecoding.
+Foco estratégico na aceleração do **Time-to-Market** e **Entrega de Valor**, construindo desde painéis logísticos em tempo real até ferramentas proprietárias de automação RPA (Robotic Process Automation).
 
-#### 📦 Ecossistema Logístico de Missão Crítica (Acerta Express)
+#### 📦 Logística & IoT de Missão Crítica (Acerta Express / Atual)
 
-* **Ares Alpha (Inteligência & SRE):** Motor híbrido de observabilidade. Combina **RPA com Playwright (Python)** para scraping headless profundo no TMS Brudam e **API REST** nativa com cache dinâmico. Dados normalizados via **Pandas** e expostos em um frontend **Streamlit/Shadcn**. Camada de SRE integrada com exportador de métricas customizado alimentando **Prometheus e Grafana**.
-* **Tracker Acerta (IoT & Telemetria WSS):** SPA de altíssima performance estruturada em **React 19 (RC), Vite 7 e TypeScript**. Arquitetura Pub/Sub com **WebSockets** nativos processando coordenadas geográficas em tempo real via **Leaflet**, alimentando um painel analítico de *Safety Score* (frenagens bruscas, RPM, limites de via).
-* **AcertaGo (Last-Mile Mobile):** Sistema PWA desenhado para a operação de ponta. Stack serverless com **Supabase Cloud**, **React Query** e UI/UX premium (Tailwind + Shadcn). Gestão de escalas, volumetria (pallets) e dupla validação de manifestos entre motoristas e conferentes.
-* **Dashboard de Gestão & Gamificação:** Migração de gestão de tarefas de plataformas SaaS para uma aplicação **Self-Hosted**. Integração de sistema de XP/Níveis, Leaderboards e controle de acesso estrito (God Mode a User) validado via Row Level Security.
+* **Ares Alpha (RPA & Observabilidade):** Motor híbrido inovador desenhado em **Python (Playwright / Pandas)** para automatizar a extração massiva de dados logísticos de sistemas legados de transporte (Scraping Headless), integrando a uma camada moderna de Business Intelligence e Dashboards analíticos.
+* **Tracker Acerta (Telemetria Real-time):** Plataforma Single Page Application (SPA) de altíssima performance estruturada em **React 19, Vite e TypeScript**. Implementação desafiadora de um motor Pub/Sub com **WebSockets** nativos processando coordenadas de dezenas de veículos simultaneamente.
+* **Mobile Solutions:** Sistemas PWA criados com **React Query** e UI moderna (**Tailwind CSS**) focados na estabilidade da operação na ponta por parte dos motoristas operacionais.
 
-#### 🛠️ Tooling, IA & Produtos SaaS Independentes
+#### 🛠️ Tooling & Engenharia Avançada
 
-* **L2D Master Migrator (CLI Tool):** "The Jailbreak Tool". CLI em **Node.js** que intercepta bundles React gerados por IA (Lovable), reescreve variáveis dinâmicas, gera `Dockerfile` e orquestra o push para o **Dokploy**, neutralizando o vendor lock-in de plataformas Low-Code.
-* **Virtual Try-On 3D (Visão Computacional):** Engine matemática de alinhamento facial. Processamento de **Face Landmarks** e coordenadas vetoriais 3D em tempo real para sobreposição milimétrica de assets de e-commerce (óculos) sobre o rosto do usuário.
-* **SaaS Pet Live Streaming:** Arquitetura de plataforma multi-tenant integrando protocolos de transmissão de vídeo ao vivo (WebRTC/HLS) ao fluxo de agendamento de pet shops.
-* **Projeto CERAMES (CRM & Institucional):** Levantamento de Requisitos (PRD) e estruturação técnica integral para um portal de associação e CRM focado no setor de cerâmica.
+* **L2D Master Migrator (Automação de Deploy):** Framework interno em **Node.js** desenvolvido para interceptar aplicações criadas por Inteligência Artificial Gerativa (ex: Lovable), otimizar variáveis e gerar **Dockerfiles** dinamicamente para deploy imediato.
+* **Visão Computacional & Live Streaming:** Experiência estruturando plataformas escaláveis utilizando transmissão de vídeo ao vivo (WebRTC/HLS) e motores de processamento geométrico para provas visuais de e-commerce 3D in-browser.
 
 ---
 
-### � PROTOCOLOS DE VIBECODING & AI-NATIVE WORKFLOW
+### 🧠 INOVAÇÃO TÉCNICA E CULTURA AI-NATIVE
 
-O código tradicional é obsoleto diante da orquestração algorítmica. Minha força motriz é a fusão entre cognição humana e processamento de LLMs:
+A linha de frente do desenvolvimento global caminha para a automação cognitiva. Eu coordeno workflows baseados em Inteligência Artificial para operar num nível de eficiência equivalente a times inteiros de Engenharia:
 
-* **Terminal-Driven AI:** Uso intensivo de **Claude Code**, **Windsurf/Cursor** e modelos de fronteira via **OpenRouter** para refatoração e geração de arquiteturas em massa.
-* **Model Context Protocol (MCP):** Instrumentação de servidores locais com MCP, permitindo que Agentes de IA auditem logs do Docker, inspecionem arquivos de configuração e executem deploys no Dokploy de forma autônoma.
-* **Eficiência Multiplicadora:** O tempo entre o levantamento de requisitos de uma arquitetura complexa (ex: WebSockets + Leaflet) e seu deploy seguro no Edge é medido em horas, garantindo um ROI imediato.
-
----
-
-### 💼 TRAJETÓRIA TÉCNICA
-
-* **Head of Development | Acerta Express (2026):** Reconstrução da espinha dorsal tecnológica da operação logística, fundando o departamento de engenharia autônoma e telemetria.
-* **Tech Lead / Full Stack Sênior | Kitei Fintech (2022 - 2025):** Sustentação de motores financeiros críticos de recuperação de crédito; integração de APIs legadas (SOAP) a gateways de pagamento modernos em instâncias AWS.
-* **Legacy Breaker | Zen Propaganda (2011 - 2022):** 11 anos liderando a transição do mercado publicitário analógico para infraestruturas digitais de alta escala (PHP, WordPress Avançado, Headless WP).
+* **Workflow Aumentado (AI-Native):** Especialista na instrumentação acionável de ferramentas como Claude e soluções baseadas em LLM para geração massiva de refatorações seguras e arquiteturas de banco de dados.
+* **Model Context Protocol (MCP):** Pioneiro na integração de IAs com o contexto do sistema de arquivos e infraestrutura local; capacitando agentes que interagem ativamente com APIs de repositórios e serviços de cloud.
 
 ---
 
-### ⚡ PITCH EXECUTIVO (THE BOTTOM LINE)
+### 💼 TRILHA DE LIDERANÇA E IMPACTO
 
-"Eu opero na convergência entre a redução de custos de infraestrutura e a aceleração impiedosa do desenvolvimento via Inteligência Artificial. Se você precisa sustentar uma operação de alta carga com zero dependência de assinaturas SaaS corporativas, eu desenho e hospedo a fundação. De robôs que domam sistemas sem API (Playwright), passando por motores de telemetria em React 19, até instâncias auto-hospedadas de bancos de dados; eu orquestro a soberania tecnológica da sua empresa. Se o seu time ainda não programa através de contexto e LLMs, vocês estão jogando o jogo de 2020."
+Mais de 11 anos de evolução tecnológica contínua, passando da sustentação de plataformas de publicidade digital ao design de arquiteturas distribuídas complexas do mercado B2B.
+
+* **Head of Development | Acerta Express (2026):** Reconstrução de ponta a ponta da espinha dorsal operacional da empresa, levantando os departamentos de telemetria autônoma, automação RPA e desenvolvimento In-House.
+* **Tech Lead / Full Stack Sênior | Kitei Fintech (2022 - 2025):** Core developer na aprovação de esteiras e motores transacionais de recuperação de crédito. Liderança na modernização de APIs corporativas (SOAP) conectando-as a gateways de Cloud Hosting modernas na AWS e microsserviços Node.
+* **Full Stack Lead | Zen Propaganda (2011 - 2022):** Mais de uma década conduzindo a transição digital para campanhas publicitárias de alta escala de tráfego (PHP e Ecossistemas Headless web).
 
 ---
-*Status: Operando em frequência máxima. `ssh root@sovereign-infra`*
+
+### ⚡ RESUMO EXECUTIVO (THE BOTTOM LINE)
+
+Opero na exata convergência entre a **redução pragmática de custos de Cloud** e a **aceleração contínua do desenvolvimento de produtos** via inteligência de software. Se a sua corporação precisa estruturar soluções resilientes, coordenar times em torno de arquiteturas e boas práticas modernas (TypeScript/React/Node), ou modernizar infraestruturas através de CI/CD limpo, eu desenho os fundamentos, modulo o banco de dados e levo o código de alto nível e qualidade corporativa pra produção.
+
+---
+*Elevando o Desenvolvimento de Software e Inovação Logística ao estado da arte.*
