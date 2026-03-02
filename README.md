@@ -1,4 +1,4 @@
-# ⚡ THE SOVEREIGN ORCHESTRATOR ⚡
+# ⚡ ARQUITETO DE SOBERANIA TECNOLÓGICA ⚡
 
 [🇧🇷 Português](README.md) | [🇺🇸 English](README.en.md)
 
