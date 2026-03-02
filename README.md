@@ -1,80 +1,70 @@
 # ⚡ THE SOVEREIGN ORCHESTRATOR ⚡
 
-## Engineering | AI Agents | Infrastructure Sovereignty
+## Chief Technology Officer (CTO) | AI Solutions Architect | 10x Engineer
 
-> "Antigravity is not a module; it's a philosophy. If a platform locks you in, build the jailbreak. If a system lacks an API, build the robot."
-
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript)
-![Docker](https://img.shields.io/badge/Docker-Sovereign-2496ED?style=for-the-badge&logo=docker)
-![Supabase](https://img.shields.io/badge/Supabase-Self--Hosted-3ECF8E?style=for-the-badge&logo=supabase)
-![n8n](https://img.shields.io/badge/n8n-Queue--Mode-FF6C37?style=for-the-badge&logo=n8n)
-![Python](https://img.shields.io/badge/Python-RPA-3776AB?style=for-the-badge&logo=python)
-
-### 🛠️ STACK DE SOBERANIA (SELF-HOSTED OPS)
-
-Eu não consumo SaaS; eu orquestro ativos proprietários. Minha infraestrutura é desenhada para **Zero Lock-in** e **Escalabilidade Horizontal**.
-
-#### **Core Infrastructure & Edge**
-
-* **Orquestração de Containers:** Domínio de **Dokploy**, **Portainer** e **Docker Engine**. Gestão de volumes persistentes e redes isoladas para microserviços críticos.
-* **Security & Gateway:** Implementação de **Cloudflare Tunnels (cloudflared)** para bypass de CGNAT/Firewalls e exposição segura de serviços locais. Roteamento via **Traefik** com certificados TLS automáticos.
-* **AI Context Protocol:** Implementação de **MCP (Model Context Protocol)** para integrar o sistema de arquivos local e ferramentas de deploy diretamente ao contexto de LLMs.
-
-#### **Backend & Data Sovereignty**
-
-* **Database & Auth:** **Supabase Self-hosted** (Postgres + GoTrue + PostgREST). Arquitetura de segurança baseada em **RLS (Row Level Security)** e funções RPC para lógica server-side.
-* **Automação Industrial:** **n8n em Modo Fila (Queue Mode)** utilizando **Redis** como broker e múltiplos **Workers** para processamento assíncrono de alto volume.
-* **Real-time Comms:** **Evolution API** e **Typebot** auto-hospedados, gerenciando fluxos de mensageria massiva com webhooks integrados ao **n8n**.
+> "Antigravidade não é um módulo; é uma filosofia de engenharia. Se uma plataforma SaaS te prende, construa a saída. Se um sistema legado não tem API, construa o robô que o controla."
 
 ---
 
-### 🚀 PROJETOS DE VANGUARDA (Q1 2026)
+### �️ ECOSSISTEMA DE SOBERANIA (SELF-HOSTED OPS & CLOUD)
 
-#### **1. L2D-CLI: The Lovable-to-Docker Migrator**
+Eu não alugo infraestrutura; eu orquestro ativos proprietários. Minha arquitetura é desenhada para **Zero SaaS Lock-in**, escalabilidade horizontal e governança absoluta de dados operacionais.
 
-Ferramenta proprietária desenvolvida em **Node.js** para quebrar o ciclo de dependência de plataformas Low-code.
+#### 1. Infraestrutura Core, Edge & Networking
 
-* **O que faz:** Intercepta o bundle de aplicações React/Vite, injeta variáveis de ambiente dinâmicas, gera o `Dockerfile` otimizado e dispara o deploy via API no **Dokploy/Portainer**.
-* **Impacto:** Redução de custos de hospedagem e soberania total sobre o código-fonte gerado por IA.
+* **Orquestração de Containers:** Clusterização avançada com **Dokploy**, **Portainer** e **Docker Engine**. Gerenciamento rigoroso de volumes persistentes (PGData, Redis, Node) para proteção contra perda de estado em deployments contínuos.
+* **Segurança & Reverse Proxy:** Exposição de microsserviços via **Cloudflare Tunnels (cloudflared)** para bypass de CGNAT e proteção DDoS, com roteamento interno assinado por **Traefik** e terminação TLS automática.
+* **CI/CD & Automação de Infra:** Automação de deploys com **GitHub Actions** interligados a webhooks do Dokploy e scripts de orquestração via **AIOS Core** (AI Operating Systems) e **AutoVault Prime Hub**.
 
-#### **2. Ares Alpha: Hybrid RPA & Observability**
+#### 2. Backend, Data & Real-Time Comms
 
-Um ecossistema de inteligência que trata sistemas legados como fontes de dados modernas.
-
-* **Hybrid Engine:** Combina **Playwright (Python)** para scraping headless em sistemas sem API e **REST API Clients** com cache inteligente.
-* **SRE Layer:** Exportador de métricas customizado integrado ao **Prometheus** e **Grafana**, transformando logs logísticos em telemetria técnica de missão crítica.
-
-#### **3. Tracker Engine: Low-Latency Telemetry**
-
-* **Real-time:** Arquitetura **Pub/Sub** utilizando **WebSockets (WSS)** nativos em **React 19**.
-* **Geoprocessing:** Integração de **Leaflet** com processamento de coordenadas em tempo real para cálculo de **Safety Score** e comportamento de direção.
+* **Sustentação Supabase Self-Hosted:** Manutenção de mais de 12 contêineres vitais (Postgres, GoTrue, PostgREST, Kong, Storage, Realtime). Arquitetura de segurança validada por **RLS (Row Level Security)** e RPC Functions.
+* **Automação Industrial (Queue Mode):** Servidor **n8n** operando em arquitetura de fila com **Redis** e múltiplos **Workers** distribuídos, garantindo alta disponibilidade para processamento assíncrono de webhooks massivos.
+* **Mensageria & IA Conversacional:** Instâncias autônomas de **Evolution API** e **Typebot**, orquestrando fluxos de atendimento B2B/B2C sem dependência de plataformas de terceiros.
 
 ---
 
-### 🤖 AI-NATIVE WORKFLOW (VIBECODING)
+### 🚀 O PORTFÓLIO DE BLITZSCALING (Q1 2026)
 
-Não escrevo apenas código; orquestro agentes. Meu ciclo de desenvolvimento é potencializado por:
+Uma demonstração de **Time-to-Market** agressivo, onde ecossistemas inteiros foram concebidos, desenvolvidos e postos em produção em menos de 90 dias através de Vibecoding.
 
-* **Claude Code & OpenRouter:** Uso agressivo de LLMs de última geração via terminal para refatoração e geração de arquitetura.
-* **Custom Agents:** Criação de prompts de sistema e ferramentas MCP para automação de deploys e auditoria de segurança de containers.
-* **Fast Iteration:** Redução do ciclo de vida de desenvolvimento (SDLC) de meses para dias, mantendo a robustez de sistemas de nível enterprise.
+#### 📦 Ecossistema Logístico de Missão Crítica (Acerta Express)
+
+* **Ares Alpha (Inteligência & SRE):** Motor híbrido de observabilidade. Combina **RPA com Playwright (Python)** para scraping headless profundo no TMS Brudam e **API REST** nativa com cache dinâmico. Dados normalizados via **Pandas** e expostos em um frontend **Streamlit/Shadcn**. Camada de SRE integrada com exportador de métricas customizado alimentando **Prometheus e Grafana**.
+* **Tracker Acerta (IoT & Telemetria WSS):** SPA de altíssima performance estruturada em **React 19 (RC), Vite 7 e TypeScript**. Arquitetura Pub/Sub com **WebSockets** nativos processando coordenadas geográficas em tempo real via **Leaflet**, alimentando um painel analítico de *Safety Score* (frenagens bruscas, RPM, limites de via).
+* **AcertaGo (Last-Mile Mobile):** Sistema PWA desenhado para a operação de ponta. Stack serverless com **Supabase Cloud**, **React Query** e UI/UX premium (Tailwind + Shadcn). Gestão de escalas, volumetria (pallets) e dupla validação de manifestos entre motoristas e conferentes.
+* **Dashboard de Gestão & Gamificação:** Migração de gestão de tarefas de plataformas SaaS para uma aplicação **Self-Hosted**. Integração de sistema de XP/Níveis, Leaderboards e controle de acesso estrito (God Mode a User) validado via Row Level Security.
+
+#### 🛠️ Tooling, IA & Produtos SaaS Independentes
+
+* **L2D Master Migrator (CLI Tool):** "The Jailbreak Tool". CLI em **Node.js** que intercepta bundles React gerados por IA (Lovable), reescreve variáveis dinâmicas, gera `Dockerfile` e orquestra o push para o **Dokploy**, neutralizando o vendor lock-in de plataformas Low-Code.
+* **Virtual Try-On 3D (Visão Computacional):** Engine matemática de alinhamento facial. Processamento de **Face Landmarks** e coordenadas vetoriais 3D em tempo real para sobreposição milimétrica de assets de e-commerce (óculos) sobre o rosto do usuário.
+* **SaaS Pet Live Streaming:** Arquitetura de plataforma multi-tenant integrando protocolos de transmissão de vídeo ao vivo (WebRTC/HLS) ao fluxo de agendamento de pet shops.
+* **Projeto CERAMES (CRM & Institucional):** Levantamento de Requisitos (PRD) e estruturação técnica integral para um portal de associação e CRM focado no setor de cerâmica.
+
+---
+
+### � PROTOCOLOS DE VIBECODING & AI-NATIVE WORKFLOW
+
+O código tradicional é obsoleto diante da orquestração algorítmica. Minha força motriz é a fusão entre cognição humana e processamento de LLMs:
+
+* **Terminal-Driven AI:** Uso intensivo de **Claude Code**, **Windsurf/Cursor** e modelos de fronteira via **OpenRouter** para refatoração e geração de arquiteturas em massa.
+* **Model Context Protocol (MCP):** Instrumentação de servidores locais com MCP, permitindo que Agentes de IA auditem logs do Docker, inspecionem arquivos de configuração e executem deploys no Dokploy de forma autônoma.
+* **Eficiência Multiplicadora:** O tempo entre o levantamento de requisitos de uma arquitetura complexa (ex: WebSockets + Leaflet) e seu deploy seguro no Edge é medido em horas, garantindo um ROI imediato.
 
 ---
 
 ### 💼 TRAJETÓRIA TÉCNICA
 
-* **Head of Development:** Liderando a soberania digital e infraestrutura de telemetria/RPA.
-* **Senior Full Stack (Fintech):** Sustentação de motores financeiros e ambientes AWS/Docker escaláveis.
-* **Legacy Breaker:** 11 anos de experiência liderando a transição de arquiteturas PHP/WordPress para ecossistemas modernos de microsserviços.
+* **Head of Development | Acerta Express (2026):** Reconstrução da espinha dorsal tecnológica da operação logística, fundando o departamento de engenharia autônoma e telemetria.
+* **Tech Lead / Full Stack Sênior | Kitei Fintech (2022 - 2025):** Sustentação de motores financeiros críticos de recuperação de crédito; integração de APIs legadas (SOAP) a gateways de pagamento modernos em instâncias AWS.
+* **Legacy Breaker | Zen Propaganda (2011 - 2022):** 11 anos liderando a transição do mercado publicitário analógico para infraestruturas digitais de alta escala (PHP, WordPress Avançado, Headless WP).
 
 ---
 
-### 📡 CONNECT WITH THE ARCHITECT
+### ⚡ PITCH EXECUTIVO (THE BOTTOM LINE)
 
-* **Terminal:** `ssh felipe@sovereign-infra`
-* **GitHub:** [felipesabores](https://github.com/felipesabores)
-* **Keywords:** Docker | Supabase | n8n Queue | React 19 | RPA | AI Agents | MCP | Self-Hosted
+"Eu opero na convergência entre a redução de custos de infraestrutura e a aceleração impiedosa do desenvolvimento via Inteligência Artificial. Se você precisa sustentar uma operação de alta carga com zero dependência de assinaturas SaaS corporativas, eu desenho e hospedo a fundação. De robôs que domam sistemas sem API (Playwright), passando por motores de telemetria em React 19, até instâncias auto-hospedadas de bancos de dados; eu orquestro a soberania tecnológica da sua empresa. Se o seu time ainda não programa através de contexto e LLMs, vocês estão jogando o jogo de 2020."
 
 ---
-*"Se você está esperando o JIRA atualizar para começar a trabalhar, estamos em níveis diferentes de frequência."*
+*Status: Operando em frequência máxima. `ssh root@sovereign-infra`*
