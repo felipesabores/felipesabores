@@ -4,6 +4,16 @@
 
 > "Antigravidade não é um módulo; é uma filosofia de engenharia. Se uma plataforma SaaS te prende, construa a saída. Se um sistema legado não tem API, construa o robô que o controla."
 
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript)
+![NodeJS](https://img.shields.io/badge/Node.js-20.x-339933?style=for-the-badge&logo=node.js)
+![Python](https://img.shields.io/badge/Python-RPA-3776AB?style=for-the-badge&logo=python)
+![Docker](https://img.shields.io/badge/Docker-Sovereign-2496ED?style=for-the-badge&logo=docker)
+![Supabase](https://img.shields.io/badge/Supabase-Self--Hosted-3ECF8E?style=for-the-badge&logo=supabase)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15.x-4169E1?style=for-the-badge&logo=postgresql)
+![n8n](https://img.shields.io/badge/n8n-Queue--Mode-FF6C37?style=for-the-badge&logo=n8n)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-UI-38B2AC?style=for-the-badge&logo=tailwind-css)
+
 ---
 
 ### �️ ECOSSISTEMA DE SOBERANIA (SELF-HOSTED OPS & CLOUD)
