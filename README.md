@@ -1,5 +1,7 @@
 # ⚡ THE SOVEREIGN ORCHESTRATOR ⚡
 
+[🇧🇷 Português](README.md) | [🇺🇸 English](README.en.md)
+
 ## Senior Software Architect | Tech Lead | Full Stack Engineer | CTO
 
 > "Foco extremo na entrega de valor, eficiência operacional e redução de custos. Liderando a modernização de sistemas corporativos, projetando infraestruturas de alta escalabilidade e acelerando o ciclo de desenvolvimento através de workflows de Inteligência Artificial."
